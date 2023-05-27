@@ -19,15 +19,7 @@ a {
 ul {
     list-style-type: none;
 }
-.logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: var(--main-text-color);
-    text-transform: uppercase;
-}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
         font-weight: 800;
@@ -35,7 +27,7 @@ ul {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-    color: var(--main-background-color);
+    color: var(--main-text-color);
 }
 .button:focus {
     color: var(--main-title-color);
