@@ -110,7 +110,7 @@ ul>link {
         color: var(--main-text-color);
         text-transform: capitalize;
 }
-.people {background:var(--main-title-color);
+.people {background-color:var(--main-title-color);
 }
 .team {
     text-align: center;
