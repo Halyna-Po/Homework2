@@ -145,13 +145,13 @@ font-family:'Roboto' ,sans-serif;
     cursor: pointer;}
 .list:hover{
     color:var(--main-title-color);
-     background:var(--main-button-color);
+     background-color:var(--main-button-color);
 
 
 }
 .list:focus {
     color: var(--main-title-color);
-    background:var(--main-button-color);
+    background-color:var(--main-button-color);
 }
 
 
