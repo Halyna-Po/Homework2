@@ -62,6 +62,7 @@ ul {
         color: var(--main-title-color);
 }
 .hero-btn {
+    text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -100,25 +101,32 @@ ul {
         color: var(--main-content-color);
 }
 .done {
+    text-align: center;
     font-weight: 600;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
+        text-transform: capitalize;
 }
 .people {
+    
     background: var(--main-logo-color);
 }
 .team {
+    text-align: center;
+    text-transform: capitalize;
 font-weight: 600;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    background-color: var(--main-title-color);
 }
 .team-list-item {
   
     color: var(--main-title-color);
+    background-color: var(--main-title-color);
 }
 /* кнопки портфолио*/
 
@@ -136,6 +144,7 @@ font-family: 'Roboto',sans-serif;
 .list:hover{
     color:var(--main-title-color);
      background:var(--main-button-color);
+
 
 }
 .list:focus {
@@ -206,5 +215,5 @@ color: var(--main-button-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-info-color);
+    color: var(--main-logo-color);
 }
