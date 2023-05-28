@@ -29,7 +29,7 @@ ul {
         text-transform: uppercase;
     color:var(--main-background-color);
 }
-.link {
+a:link {
     text-decoration: none;
     color: var(--main-text-color);
 }
