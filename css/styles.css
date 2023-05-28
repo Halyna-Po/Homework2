@@ -29,7 +29,7 @@ ul {
         text-transform: uppercase;
     color:var(--main-background-color);
 }
-.link{
+.link {
     text-decoration: none;
     color: var(--main-text-color);
 }
@@ -120,7 +120,7 @@ font-weight: 600;
     color: var(--main-title-color);
 }
 /* кнопки портфолио*/
-.list{
+.list {
     background:var(--main-logo-color);
     list-style: none;
 
@@ -147,7 +147,7 @@ font-family: 'Roboto',sans-serif;
 
 
 .header-menu-link {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -156,22 +156,23 @@ font-family: 'Roboto',sans-serif;
 }
 
 .header-menu-link:hover {
-    color: var(--main-content-color);
+    color: var(--main-button-color);
 }
 .header-menu-link:focus {
-    color: var(--main-background-color);
+    color: var(--main-button-color);
 }
 .address-list-link {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
-}
-.address-list-link:hover {
     color: var(--main-content-color);
 }
+.address-list-link:hover {
+    color: var(--main-button-color);
+}
 .address-list-link:focus {
-color: var(--main-background-color);
+color: var(--main-button-color);
 }
 /*----------MAIN-----------*/
 
