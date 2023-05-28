@@ -61,7 +61,7 @@ font-family: 'Raleway',
     color:var(--main-text-color) ;
 }
 
-.logo-studio {
+.logo-studio{
 
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
@@ -217,7 +217,7 @@ font-family:'Roboto',  sans-serif;
 
 
 
-.header-menu-link {
+.header-menu{
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -226,10 +226,10 @@ font-family:'Roboto',  sans-serif;
         text-decoration: none;
 }
 
-.header-menu-link:hover {
+.header-menu:hover {
     color: var(--main-button-color);
 }
-.header-menu-link:focus {
+.header-menu:focus {
     color: var(--main-button-color);
 }
 .address-list-link {
