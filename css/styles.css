@@ -30,8 +30,9 @@ ul {
         color:var(--main-background-color);
         text-decoration: none;
 }
-ul.link{
+li.link{
     text-decoration: none;
+    
 }
 ul.list{
     font-size: 16px;
