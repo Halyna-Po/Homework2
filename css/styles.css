@@ -120,9 +120,9 @@ font-weight: 600;
     color: var(--main-title-color);
 }
 /* кнопки портфолио*/
-a:list{
-    background:var(--main-logo-color);
-    list-style: none;
+.list{
+    
+  
 
 
 font-family: 'Roboto',sans-serif;
@@ -132,12 +132,13 @@ font-family: 'Roboto',sans-serif;
     /* identical to box height, or 150% */
     letter-spacing: 0.04em;
     color:var(--main-background-color);
-    cursor: pointer;
-
-}
+     background: var(--main-logo-color);
+     list-style: none;
+    cursor: pointer;}
 .list:hover{
     color:var(--main-title-color);
      background:var(--main-button-color);
+
 }
 .list:focus {
     color: var(--main-title-color);
