@@ -20,7 +20,7 @@ ul {
     list-style-type: none;
 }
 
-.header-logo {
+.link {
     font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
@@ -28,11 +28,29 @@ ul {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:var(--main-background-color);
+        text-decoration: none;
 }
+
+.logo-studio {
+
+    font-family: 'Raleway',
+        sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line: height 1.17em;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--main-text-color);}
+
+    .address{
+        font-style: normal;
+    }
+
+
+
 header>nav>a>link{
-    text-decoration: none;
-    
-}
+    text-decoration: none;}
 
     ul>link {
     text-decoration: none;
