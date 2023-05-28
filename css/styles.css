@@ -89,8 +89,6 @@ header>nav>a>link{
     color: var(--main-text-color);
 }
 
-}
-
 .button {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -104,11 +102,13 @@ header>nav>a>link{
 .button:hover {
     color:var(--main-title-color);
     background-color:var(--main-button-color) ;
+    cursor: pointer;
 }
 
 .button:focus {
     color: var(--main-title-color);
     background: var(--main-button-color);
+    cursor: pointer;
 }
  
 
@@ -294,4 +294,26 @@ a>link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-logo-color);
+}
+
+
+
+/*-----heder index----*/
+.list>.link{
+    text-decoration: none;
+}
+
+.list>link{
+
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color:var(--main-content-color);}
+.list>link:hover{
+    color: var(--main-button-color);
+    cursor: pointer;
+}
+.list>link:focus {
+    color: var(--main-button-color);
+    cursor: pointer;
 }
