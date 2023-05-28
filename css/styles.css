@@ -85,17 +85,18 @@ ul {
         color:var(--main-text-color);
 }
 .title-list {
-    font-weight: 600;
+    font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: var(--main-text-color);
+        list-style: none;
 }
 .title-list-item {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--main-content-color);    
+        color: var(--main-content-color);
 }
 .done {
     font-weight: 600;
@@ -121,9 +122,10 @@ font-weight: 600;
 /* кнопки портфолио*/
 .list{
     background:var(--main-logo-color);
+    list-style: none;
 
-font-family: 'Roboto',
-    sans-serif;
+
+font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
