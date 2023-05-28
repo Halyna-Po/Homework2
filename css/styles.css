@@ -13,9 +13,7 @@ background: var(--main-title-color);
 color: var(--main-content-color);
 }
         
-a {
-    text-decoration: none;
-}
+
 ul {
     list-style-type: none;
 }
@@ -34,12 +32,14 @@ li.link{
     text-decoration: none;
     
 }
+
 .list{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-content-color);
     text-decoration: none;
+    list-style: none;
 
 }
 .list:hover{
@@ -90,15 +90,6 @@ font-family: 'Raleway',
         font-style: normal;
         list-style: none;
     }
-
-.list {
-    list-style: none;
-}
-
-.link{
-    text-decoration: none;
-    color: var(--main-text-color);
-}
 
 .button {
     font-family: "Roboto", sans-serif;
