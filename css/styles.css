@@ -29,7 +29,7 @@ ul {
         text-transform: uppercase;
     color:var(--main-background-color);
 }
-link {
+:link {
     text-decoration: none;
     color: var(--main-text-color);
 }
@@ -120,7 +120,7 @@ font-weight: 600;
     color: var(--main-title-color);
 }
 /* кнопки портфолио*/
-.list {
+:list {
     background:var(--main-logo-color);
     list-style: none;
 
