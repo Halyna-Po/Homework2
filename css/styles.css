@@ -88,19 +88,27 @@ header>nav>a>link{
     text-decoration: none;
     color: var(--main-text-color);
 }
-.button:focus {
-    color: var(--main-title-color);
-    background: var(--main-background-color);
+
 }
 
 .button {
-    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--main-background-color);
     background: var(--main-logo-color);
     cursor: pointer;
+}
+.button:hover {
+    color:var(--main-title-color);
+    background-color:var(--main-button-color) ;
+}
+
+.button:focus {
+    color: var(--main-title-color);
+    background: var(--main-button-color);
 }
  
 
