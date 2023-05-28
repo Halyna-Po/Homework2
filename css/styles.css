@@ -145,7 +145,7 @@ font-family: 'Roboto',
 
 
 .header-menu-link {
-        font-weight: 600;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -154,10 +154,10 @@ font-family: 'Roboto',
 }
 
 .header-menu-link:hover {
-    color: var(--main-content-color);
+    color: var(--main-button-color);
 }
 .header-menu-link:focus {
-    color: var(--main-background-color);
+    color: var(--main-button-color);
 }
 .address-list-link {
     font-size: 16px;
