@@ -212,7 +212,19 @@ color: var(--main-button-color);
 
 /*---------footer-----------*/
 
-footer>a>link {
+.footer{
+    background: var(--main-text-color);
+        font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--main-background-color);
+        text-transform: uppercase;
+    background-color:var(--main-text-color) ;
+    
+}
+a>link {
     background: var(--main-text-color);
     font-family: "Raleway", sans-serif;
     font-weight: 800;
