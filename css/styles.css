@@ -154,17 +154,31 @@ color: var(--main-background-color);
 .footer {
     background: var(--main-text-color);
 }
-.footer-logo {
+.footer-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--main-logo-color);
+    color:var(-ackground-color);
     text-transform: uppercase;
 }
 
-.footer-logo-inf {
+.logo-studio{
+
+   font-family: 'Raleway',
+    sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line: height 1.17em;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--main-logo-color);
+
+
+}
+.footer-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
