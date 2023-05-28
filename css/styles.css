@@ -187,6 +187,7 @@ font-weight: 600;
     color: var(--main-text-color);
     background-color: var(--main-title-color);
 }
+/*---цвет фона фто----*/
 .team-list-item {
     background-color:var(--main-title-color);
 }
