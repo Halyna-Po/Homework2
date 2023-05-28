@@ -141,7 +141,7 @@ font-family: 'Roboto',sans-serif;
 }
 .list:focus {
     color: var(--main-title-color);
-    background: var(--main-button-color);
+    background:var(--main-button-color);
 }
 
 
