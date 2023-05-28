@@ -29,7 +29,7 @@ ul {
         text-transform: uppercase;
     color:var(--main-background-color);
 }
-.ul>link {
+ul>link {
     text-decoration: none;
     color: var(--main-text-color);
 }
@@ -174,10 +174,8 @@ color: var(--main-button-color);
 }
 /*----------MAIN-----------*/
 
-.footer {
+footer>link {
     background: var(--main-text-color);
-}
-.footer-link {
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
