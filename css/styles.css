@@ -59,7 +59,8 @@ ul>link {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-        color: var(--main-title-color);
+    color: var(--main-title-color);
+    text-align:center;
 }
 .hero-btn {
     font-weight: 600;
@@ -122,7 +123,7 @@ font-weight: 600;
 /* кнопки портфолио*/
 
 .list>li{
-font-family: 'Roboto',sans-serif;
+font-family:'Roboto' ,sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
