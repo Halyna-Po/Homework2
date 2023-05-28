@@ -172,7 +172,15 @@ font-family: 'Roboto',sans-serif;
 .address-list-link:focus {
 color: var(--main-button-color);
 }
-/*----------MAIN-----------*/
+
+
+/*------section foto-------*/
+.list>link{
+    text-decoration: none;
+}
+
+
+/*---------footer-----------*/
 
 footer>link {
     background: var(--main-text-color);
@@ -181,7 +189,7 @@ footer>link {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color:var(-ackground-color);
+    color:var(--main-background-color);
     text-transform: uppercase;
 }
 
