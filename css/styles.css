@@ -110,7 +110,7 @@ ul>link {
         color: var(--main-text-color);
         text-transform: capitalize;
 }
-.people {background-color:var(--main-title-color);
+.people {background-color:var(--main-logo-color);
 }
 .team {
     text-align: center;
@@ -123,9 +123,7 @@ font-weight: 600;
     background-color: var(--main-title-color);
 }
 .team-list-item {
-  
-    color: var(--main-title-color);
-    background-color: var(--main-title-color);
+    background-color:var(--main-title-color);
 }
 /* кнопки портфолио*/
 
