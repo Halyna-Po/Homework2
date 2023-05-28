@@ -29,7 +29,7 @@ ul {
         text-transform: uppercase;
     color:var(--main-background-color);
 }
-.ul>link {
+ul>link {
     text-decoration: none;
     color: var(--main-text-color);
 }
@@ -182,18 +182,24 @@ font-family: 'Roboto',sans-serif;
 .address-list-link:focus {
 color: var(--main-button-color);
 }
-/*----------MAIN-----------*/
 
-.footer {
-    background: var(--main-text-color);
+
+/*------section foto-------*/
+.list>link{
+    text-decoration: none;
 }
-.footer-link {
+
+
+/*---------footer-----------*/
+
+footer>link {
+    background: var(--main-text-color);
     font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color:var(-ackground-color);
+    color:var(--main-background-color);
     text-transform: uppercase;
 }
 
