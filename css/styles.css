@@ -27,6 +27,10 @@ ul {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
+    color:var(--main-background-color);
+}
+.link{
+    text-decoration: none;
     color: var(--main-text-color);
 }
 .button:focus {
@@ -111,8 +115,7 @@ font-weight: 600;
     color: var(--main-text-color);
 }
 .team-list-item {
-    width: 264px;
-    height: 380px;
+  
     color: var(--main-title-color);
 }
 
