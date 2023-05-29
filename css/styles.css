@@ -226,10 +226,10 @@ font-family:'Roboto',  sans-serif;
         text-decoration: none;
 }
 
-.header-menu:hover {
+.header-menu.list:hover {
     color: var(--main-button-color);
 }
-.header-menu:focus {
+.header-menu.list {
     color: var(--main-button-color);
 }
 .address-list-link {
