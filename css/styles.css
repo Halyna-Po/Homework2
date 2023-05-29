@@ -85,11 +85,11 @@ font-family: 'Raleway',
     letter-spacing: 0.02em;
     color: var(--main-content-color);
 }
-.contact-list list :hover {
+.contact-list list link :hover {
     color: var(--main-button-color);
     cursor: pointer;
 }
-.contact-list list :focus {
+.contact-list list link :focus {
     color: var(--main-button-color);
     cursor: pointer;
 }
