@@ -60,7 +60,7 @@ font-family: 'Raleway',
     text-transform: uppercase;
     color:var(--main-text-color) ;
 }
-.span .logo-studio {
+.span.logo-studio {
     color:var(--main-text-color);
 }
 
