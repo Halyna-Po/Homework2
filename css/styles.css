@@ -89,6 +89,7 @@ font-family: 'Raleway',
 }
 .contact-list:focus {
     color: var(--main-button-color);
+    cursor: pointer;
 }
     .address{
         font-style: normal;
