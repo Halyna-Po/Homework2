@@ -219,20 +219,7 @@ font-family:'Roboto',  sans-serif;
     color: var(--main-button-color);
 
 }
-.address{font-style: normal;}
-.address-list-link {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-content-color);
-}
-.address-list-link:hover {
-    color: var(--main-button-color);
-}
-.address-list-link:focus {
-color: var(--main-button-color);
-}
+
 
 
 /*------section foto-------*/
@@ -241,7 +228,7 @@ color: var(--main-button-color);
 
 /*---------footer-----------*/
 
-.footer{
+.footer {
     background: var(--main-text-color);
         font-family: "Raleway", sans-serif;
         font-weight: 800;
