@@ -24,7 +24,6 @@ ul {
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        text-transform: uppercase;
         color:var(--main-background-color);
         text-decoration: none;
 }
@@ -42,13 +41,8 @@ li.link{
     list-style: none;
 
 }
-.list:hover{
-    color:var(--main-button-color);
-}
-.list:focus{
-    color: var(--main-button-color);
 
-}
+
 .header-logo-studio{
 font-family: 'Raleway', 
         sans-serif;
@@ -208,16 +202,6 @@ font-family:'Roboto',  sans-serif;
     color:var(--main-background-color);
      list-style: none;
     cursor: pointer;}
-.list:hover{
-    color:var(--main-title-color);
-     background-color:var(--main-button-color);
-
-
-}
-.list:focus {
-    color: var(--main-title-color);
-    background-color:var(--main-button-color);
-}
 
 
 
@@ -269,7 +253,6 @@ color: var(--main-button-color);
         line-height: 1.17;
         letter-spacing: 0.03em;
         color: var(--main-background-color);
-        text-transform: uppercase;
     background-color:var(--main-text-color);
     
 }
@@ -281,7 +264,7 @@ a>link {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color:var(--main-background-color);
-    text-transform: uppercase;
+
 }
 
 .logotype {
