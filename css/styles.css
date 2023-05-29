@@ -70,12 +70,9 @@ font-family: 'Raleway',
     /* identical to box height */
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: var(--main-text-color);
     
 }
-.logo-studio{color: var(--main-text-color);
-
-}
-
 /*---adress---*/
 .contact-list{
     font-size: 16px;
@@ -192,7 +189,7 @@ font-weight: 600;
     color: var(--main-text-color);
     background-color: var(--main-title-color);
 }
-/*---цвет фона фто----*/
+/*---цвет фона фoто----*/
 .team-list-item{
     background-color:var(--main-title-color);
 }
@@ -206,7 +203,6 @@ font-family:'Roboto',  sans-serif;
     /* identical to box height, or 150% */
     letter-spacing: 0.04em;
     color:var(--main-background-color);
-     background: var(--main-logo-color);
      list-style: none;
     cursor: pointer;}
 .list:hover{
