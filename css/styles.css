@@ -24,10 +24,10 @@ ul {
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
-        color:var(--main-background-color);
-        text-decoration: none;
         text-transform: uppercase;
-}
+        color:var(--main-background-color);
+        text-decoration: none;}
+        
 li.link{
     text-decoration: none;
     
