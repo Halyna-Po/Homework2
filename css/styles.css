@@ -85,6 +85,7 @@ font-family: 'Raleway',
 }
 .contact-list:hover{
     color: var(--main-button-color);
+    cursor: pointer;
 }
 .contact-list:focus {
     color: var(--main-button-color);
@@ -191,7 +192,7 @@ font-weight: 600;
     background-color: var(--main-title-color);
 }
 /*---цвет фона фто----*/
-.team-list-item {
+.team-list-item{
     background-color:var(--main-title-color);
 }
 /* кнопки портфолио*/
@@ -234,7 +235,9 @@ font-family:'Roboto',  sans-serif;
 }
 .header-menu:focus {
     color: var(--main-button-color);
+
 }
+.address{font-style: normal;}
 .address-list-link {
     font-style: normal;
     font-size: 16px;
