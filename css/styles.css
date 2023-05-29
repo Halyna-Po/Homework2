@@ -229,10 +229,10 @@ font-family:'Roboto',  sans-serif;
         text-decoration: none;
 }
 
-.header-menu.list:hover {
+.header-menu:hover {
     color: var(--main-button-color);
 }
-.header-menu.list {
+.header-menu:focus {
     color: var(--main-button-color);
 }
 .address-list-link {
