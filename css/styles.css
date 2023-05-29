@@ -26,6 +26,7 @@ ul {
         letter-spacing: 0.03em;
         color:var(--main-background-color);
         text-decoration: none;
+        text-transform: uppercase;
 }
 li.link{
     text-decoration: none;
