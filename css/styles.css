@@ -83,7 +83,7 @@ font-family: 'Raleway',
 .contacts-link:focus {
     color: var(--main-button-color);
 }
-    .cotacts{
+    .address{
         font-style: normal;
         list-style: none;
     }
