@@ -108,7 +108,7 @@ font-family: 'Raleway',
     background: var(--main-button-color);
     cursor: pointer;
 }
- a>lnk {
+ a>link {
     text-transform: uppercase;
  }
 
