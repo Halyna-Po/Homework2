@@ -72,15 +72,15 @@ font-family: 'Raleway',
 /*---adress---*/
 
 
-.contact-list link {
+.contact-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-content-color);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contact-list:hover,
+.contact-list:focus {
     color: var(--main-button-color);
 }
     .address{
