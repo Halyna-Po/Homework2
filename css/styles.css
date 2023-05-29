@@ -308,3 +308,12 @@ a>link {
 
 
 /*-----heder index----*/
+contact-list list link :hover {
+    color: var(--main-button-color);
+    cursor: pointer;
+}
+
+.contact-list list link :focus {
+    color: var(--main-button-color);
+    cursor: pointer;
+}
