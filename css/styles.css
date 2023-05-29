@@ -78,8 +78,8 @@ font-family: 'Raleway',
     color: var(--main-content-color);
 }
 
-.contact-list.link:hover,
-.contact-list.link:focus {
+.contacts-list.link:hover,
+.contacts-list.link:focus {
     color: var(--main-button-color);
 }
     .address{
@@ -258,6 +258,7 @@ a>link {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     color:var(--main-background-color);
 
 }
