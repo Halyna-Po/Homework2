@@ -60,9 +60,7 @@ font-family: 'Raleway',
     text-transform: uppercase;
     color:var(--main-text-color) ;
 }
-.logo-studio span {
-    color:var(--main-text-color);
-}
+
 
 .logo-studio{
 
@@ -85,11 +83,11 @@ font-family: 'Raleway',
     letter-spacing: 0.02em;
     color: var(--main-content-color);
 }
-.contact-list list link :hover {
+.contact :hover {
     color: var(--main-button-color);
     cursor: pointer;
 }
-.contact-list list link :focus {
+.contact :focus {
     color: var(--main-button-color);
     cursor: pointer;
 }
@@ -308,12 +306,3 @@ a>link {
 
 
 /*-----heder index----*/
-contact-list list link :hover {
-    color: var(--main-button-color);
-    cursor: pointer;
-}
-
-.contact-list list link :focus {
-    color: var(--main-button-color);
-    cursor: pointer;
-}
