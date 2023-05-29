@@ -252,7 +252,7 @@ color: var(--main-button-color);
         letter-spacing: 0.03em;
         color: var(--main-background-color);
     background-color:var(--main-text-color);
-    
+    text-transform: uppercase;
 }
 a>link {
     background: var(--main-text-color);
