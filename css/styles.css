@@ -77,10 +77,10 @@ font-family: 'Raleway',
     
 }
 /*---adress---*/
-.contact-list list link a :hover {
+.li a :hover {
 color: var(--main-button-color);
 }
-.contact-list list link a :focus {
+.li a :focus {
 color: var(--main-button-color);
 }
 
