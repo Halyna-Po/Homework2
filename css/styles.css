@@ -108,9 +108,7 @@ font-family: 'Raleway',
     background: var(--main-button-color);
     cursor: pointer;
 }
- a>link {
-    text-transform: uppercase;
- }
+ 
 
 /*-----------MAIN------------*/
 .hero {
