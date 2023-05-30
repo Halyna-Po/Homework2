@@ -158,7 +158,7 @@ font-weight: 600;
 }
 /*---цвет фона фoто----*/
 
-{
+.team-list{
     background-color:var(--main-title-color);
 }
 
