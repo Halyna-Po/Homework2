@@ -8,11 +8,7 @@
     --main-button-color: #404BBF;
  }
  body {
-<<<<<<< HEAD
-font-family:"Roboto"  sans-serif;
-=======
 font-family:"Roboto",sans-serif;
->>>>>>> 365bd4fcf4461684f026618aaf5a7adb958ca4f5
 background: var(--main-title-color);
 color: var(--main-content-color);
 }
@@ -27,45 +23,14 @@ color: var(--main-content-color);
     text-decoration: none;
     list-style: none;
 }
-<<<<<<< HEAD
-ul {
-    list-style-type: none;
-}
-
-.header-logo {
-    font-family: "Raleway" sans-serif;
-=======
 /*------логотип------*/
 .logo{
     font-family: "Raleway", sans-serif;
->>>>>>> 365bd4fcf4461684f026618aaf5a7adb958ca4f5
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-<<<<<<< HEAD
-    color:var(--main-background-color);
-}
-.link {
-    text-decoration: none;
-    color: var(--main-text-color);
-}
-.list {
-    list-style: none;
-}
-.button:hover {
-    color: var(--main-title-color);
-    background-color: var(--main-button-color);
-}
-.button:focus {
-    color: var(--main-title-color);
-    background: var(--main-button-color);
-}
-
-.button {
-    font-family: "Roboto" sans-serif;
-=======
         color:var(--main-background-color);
         }
 
@@ -80,13 +45,9 @@ ul {
     }
 
     /*---header-menu---*/
-.header-boss{
-flexbox
 
 
-}
 .header-menu {
->>>>>>> 365bd4fcf4461684f026618aaf5a7adb958ca4f5
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -124,7 +85,6 @@ flexbox
 }
 
 .hero-title {
-    text-align: center;
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
@@ -135,7 +95,7 @@ flexbox
 
 /*------button-index------*/.hero-btn {
     text-align: center;
-    font-family: "Roboto" sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -186,13 +146,7 @@ flexbox
         color: var(--main-text-color);
         text-transform: capitalize;
 }
-<<<<<<< HEAD
-.people {
-    
-    background: var(--main-title-color);
-=======
 .people {background-color:var(--main-logo-color);
->>>>>>> 365bd4fcf4461684f026618aaf5a7adb958ca4f5
 }
 .team {
     text-align: center;
@@ -204,91 +158,35 @@ font-weight: 600;
     color: var(--main-text-color);
     background-color: var(--main-title-color);
 }
-<<<<<<< HEAD
-.team-list-item {
-  
-    color: var(--main-title-color);
-    background-color: var(--main-title-color);
-}
-/* кнопки портфолио*/
-
-.list>li{
-font-family: 'Roboto' sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    /* identical to box height, or 150% */
-    letter-spacing: 0.04em;
-    color:var(--main-background-color);
-     background: var(--main-logo-color);
-     list-style: none;
-    cursor: pointer;}
-.list:hover{
-    color:var(--main-title-color);
-     background:var(--main-button-color);
-
-=======
 /*---цвет фона фoто----*/
->>>>>>> 365bd4fcf4461684f026618aaf5a7adb958ca4f5
 
 .team-list{
     background-color:var(--main-title-color);
 }
 
 /*---------footer-----------*/
-.footer {
-    background-color: var(--main-text-color);
-}
 
-<<<<<<< HEAD
-.footer-link {
-    font-family: "Raleway"  sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color:var(--main-background-color);
-    text-transform: uppercase;
-}
-.link {
-    color:var(--main-text-color);
-    text-decoration: none;
-}
-.logo-studio{
-=======
 .footer {
     background: var(--main-text-color);
        }
 
 
 .logotype {
->>>>>>> 365bd4fcf4461684f026618aaf5a7adb958ca4f5
 
-   font-family: "Raleway"
+   font-family: 'Raleway',
     sans-serif;
     font-weight: 800;
     font-size: 18px;
-<<<<<<< HEAD
-    line-height:  1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:var(--main-logo-color);
-
-=======
     line: height 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--main-logo-color);
->>>>>>> 365bd4fcf4461684f026618aaf5a7adb958ca4f5
 }
 .footer-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-logo-color);
-<<<<<<< HEAD
-    background-color: var(--main-text-color);
-=======
 }
 
 /*----------button-portfolio-----------*/
@@ -339,5 +237,4 @@ color: var(--main-content-color);
         letter-spacing: 0.02em;
         color:var(--main-text-color);
 
->>>>>>> 365bd4fcf4461684f026618aaf5a7adb958ca4f5
 }
