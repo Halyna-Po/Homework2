@@ -12,13 +12,19 @@ font-family:"Roboto",sans-serif;
 background: var(--main-title-color);
 color: var(--main-content-color);
 }
-        
-
-ul {
-    list-style-type: none;
+/*--------дефолт-класс-link---------*/
+.link {text-decoration: none;}
+/*----------дефолт-класс-list--------*/
+.list {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-content-color);
+    text-decoration: none;
+    list-style: none;
 }
-
-.link {
+/*------логотип------*/
+.logo{
     font-family: "Raleway", sans-serif;
         font-weight: 800;
         font-size: 18px;
@@ -26,52 +32,38 @@ ul {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:var(--main-background-color);
-        text-decoration: none;}
-        
-li.link{
-    text-decoration: none;
-    
-}
-
-.list{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--main-content-color);
-    text-decoration: none;
-    list-style: none;
-
-}
-
-
-.header-logo-studio{
-font-family: 'Raleway', 
-        sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line: height 1.17em;
-    /* identical to box height */
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:var(--main-text-color) ;
-}
-
+        }
 
 .logo-studio{
-
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height:1.17;
-    /* identical to box height */
+    line-height:1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--main-text-color);
-    
+    }
+
+    /*---header-menu---*/
+.header-menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+    text-decoration: none;
 }
+
+.header-menu:hover {
+    color: var(--main-button-color);
+}
+
+.header-menu:focus {
+    color: var(--main-button-color);
+
+}
+
 /*---adress---*/
-
-
 .contact-list {
     font-size: 16px;
     line-height: 1.5;
@@ -79,52 +71,27 @@ font-family: 'Raleway',
     color: var(--main-content-color);
 }
 
-.contact-list:hover,
 .contact-list:focus {
     color: var(--main-button-color);
 }
-    .address{
-        font-style: normal;
-        list-style: none;
-    }
 
-.button {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--main-background-color);
-    background: var(--main-logo-color);
-    cursor: pointer;
-}
-.button:hover {
-    color:var(--main-title-color);
-    background-color:var(--main-button-color) ;
-    cursor: pointer;
-}
 
-.button:focus {
-    color: var(--main-title-color);
-    background: var(--main-button-color);
-    cursor: pointer;
-}
- 
-
-/*-----------MAIN------------*/
+/*------h1--------*/
 .hero {
 
     background: var(--main-text-color);
 }
+
 .hero-title {
     font-weight: 600;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--main-title-color);
-    text-align:center;
+    text-align: center;
 }
-.hero-btn {
+
+/*------button-index------*/.hero-btn {
     text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -132,15 +99,20 @@ font-family: 'Raleway',
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--main-title-color);
-    background:var(--main-background-color);
+    background: var(--main-background-color);
     cursor: pointer;
 }
+
 .hero-btn:hover {
     background: var(--main-button-color);
 }
+
 .hero-btn:focus {
-    background:var(--main-button-color);
+    background: var(--main-button-color);
 }
+
+/*-----------MAIN-index-----------*/
+
 .working {
         font-weight: 600;
         font-size: 36px;
@@ -185,64 +157,17 @@ font-weight: 600;
     background-color: var(--main-title-color);
 }
 /*---цвет фона фoто----*/
-.team-list-item{
+
+{
     background-color:var(--main-title-color);
 }
-/* кнопки портфолио*/
-
-.list>li{
-font-family:'Roboto',  sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    /* identical to box height, or 150% */
-    letter-spacing: 0.04em;
-    color:var(--main-background-color);
-     list-style: none;
-    cursor: pointer;}
-
-
-
-.header-menu{
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--main-text-color);
-        text-decoration: none;
-}
-
-.header-menu:hover {
-    color: var(--main-button-color);
-}
-.header-menu:focus {
-    color: var(--main-button-color);
-
-}
-
-
-
-/*------section foto-------*/
-
-
 
 /*---------footer-----------*/
 
 .footer {
     background: var(--main-text-color);
-       
-}
-a>link {
-    background: var(--main-text-color);
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color:var(--main-background-color);
+       }
 
-}
 
 .logotype {
 
@@ -250,8 +175,7 @@ a>link {
     sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line: height 1.17em;
-    /* identical to box height */
+    line: height 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--main-logo-color);
@@ -263,6 +187,52 @@ a>link {
     color: var(--main-logo-color);
 }
 
+/*----------button-portfolio-----------*/
+.button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--main-background-color);
+    background: var(--main-logo-color);
+    cursor: pointer;
+}
 
+.button:hover {
+    color: var(--main-title-color);
+    background-color: var(--main-button-color);
+    cursor: pointer;
+}
 
-/*-----heder index----*/
+.button:focus {
+    color: var(--main-title-color);
+    background: var(--main-button-color);
+    cursor: pointer;
+}
+
+/*-------h2 --p--фото-portfolio--*/
+.title-list{
+    font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color:var(--main-text-color);
+}
+
+.team-list-item{
+
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--main-content-color);
+}
+/*-----portfolio h2--*/
+.list-work{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color:var(--main-text-color);
+
+}
