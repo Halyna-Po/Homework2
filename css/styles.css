@@ -66,11 +66,17 @@ color: var(--main-content-color);
 }
 
 /*---adress---*/
+.address{
+    font-style: normal;
+}
 .contact-list {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--main-content-color);
+}
+.contact-list:hover {
+    color: var(--main-button-color);
 }
 
 .contact-list:focus {
@@ -215,7 +221,7 @@ font-weight: 600;
 
 /*-------h2 --p--фото-portfolio--*/
 .title-list{
-    font-weight: 600;
+   
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -231,7 +237,7 @@ color: var(--main-content-color);
 }
 /*-----portfolio h2--*/
 .list-work{
-    font-weight: 500;
+   
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
